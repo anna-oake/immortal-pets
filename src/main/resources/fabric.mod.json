@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "immortal-pets",
+  "version": "${version}",
+  "name": "Immortal Pets",
+  "description": "Makes tamed cats, wolves and parrots immortal.",
+  "authors": ["anna-oake"],
+  "contact": {
+    "homepage": "https://github.com/anna-oake/immortal-pets",
+    "sources": "https://github.com/anna-oake/immortal-pets"
+  },
+  "license": "MIT",
+  "icon": "assets/immortal-pets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["cat.anya.immortalpets.ImmortalPets"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
