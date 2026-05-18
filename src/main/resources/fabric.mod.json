@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "immortal-pets",
+  "id": "forever-pets",
   "version": "${version}",
-  "name": "Immortal Pets",
+  "name": "Forever Pets",
   "description": "Makes tamed cats, wolves and parrots immortal.",
   "authors": ["anna-oake"],
   "contact": {
-    "homepage": "https://github.com/anna-oake/immortal-pets",
-    "sources": "https://github.com/anna-oake/immortal-pets"
+    "homepage": "https://github.com/anna-oake/forever-pets",
+    "sources": "https://github.com/anna-oake/forever-pets"
   },
   "license": "MIT",
-  "icon": "assets/immortal-pets/icon.png",
+  "icon": "assets/forever-pets/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["cat.anya.immortalpets.ImmortalPets"]
+    "main": ["cat.anya.foreverpets.ForeverPets"]
   },
   "mixins": [],
   "depends": {

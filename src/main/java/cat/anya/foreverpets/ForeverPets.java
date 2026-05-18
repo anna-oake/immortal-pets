@@ -1,4 +1,4 @@
-package cat.anya.immortalpets;
+package cat.anya.foreverpets;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
@@ -12,7 +12,7 @@ import net.minecraft.world.entity.animal.feline.Cat;
 import net.minecraft.world.entity.animal.parrot.Parrot;
 import net.minecraft.world.entity.animal.wolf.Wolf;
 
-public class ImmortalPets implements ModInitializer {
+public class ForeverPets implements ModInitializer {
     @Override
     public void onInitialize() {
         ServerLivingEntityEvents.ALLOW_DAMAGE.register(this::onEntityDamageOrDeath);
